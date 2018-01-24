@@ -17,7 +17,7 @@ public class MemoryInfoManager
 		}
 	}
 
-	private const int MaxListCount = 200;
+	// private const int MaxListCount = 20000;
 
 
 	int ListSort(MemoryInfo a , MemoryInfo b)
@@ -33,7 +33,7 @@ public class MemoryInfoManager
 	{
 		UnityEngine.Object[] objs = Resources.FindObjectsOfTypeAll(typeof(Texture));
     	List<MemoryInfo> lst = new List<MemoryInfo>();
-    	for(int i = 0 ; i<objs.Length && i < MaxListCount ; i++)
+    	for(int i = 0 ; i<objs.Length ; i++)
     	{
     		// Debug.LogError("objs " +objs[i].name);
     		MemoryInfo mi = new MemoryInfo();

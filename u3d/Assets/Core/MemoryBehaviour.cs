@@ -31,7 +31,7 @@ public class MemoryBehaviour : MonoBehaviour
 			for(int i = 0 ; i<comparelst.Count ; i++)
 			{
 				str += "" + comparelst[i].name;
-				str += "  " + comparelst[i].size/1024/8;
+				str += "  " + (float)(comparelst[i].size/1024f/256) + " MB";
 				if(comparelst[i].status == MEMORY_STATUS.NEW)
 				{
 					str += " -- new";
@@ -43,7 +43,7 @@ public class MemoryBehaviour : MonoBehaviour
 				str += " frame " + comparelst[i].frameCount;
 				str += "\n";
 			}
-			Debug.Log("memory info " + str);
+			Debug.LogWarning("memory info " + str);
 		}
 	}
 }
