@@ -40,7 +40,7 @@ public class MemoryBehaviour : MonoBehaviour
 				{
 					str += " -- remove";
 				}
-				str += " frame " + comparelst[i].frameCount;
+				str += " -- frame " + comparelst[i].frameCount;
 				str += "\n";
 			}
 			Debug.LogWarning("memory info " + str);
