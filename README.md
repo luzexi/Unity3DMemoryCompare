@@ -13,10 +13,17 @@ The log will show as fellow:
 Texture Name | Size | new or remove | frame count
 
 memory info Splash  16 MB -- remove -- frame 34
+
 water  4 MB -- new -- frame 34
+
 Fast_Snow  1 MB -- new -- frame 34
+
 Light_Snow  1 MB -- new -- frame 34
+
 Blizzard_Snow  0.25 MB -- new -- frame 34
+
 t_fx_water  0.25 MB -- new -- frame 34
+
 EN_LevelUp_SD  0.1562119 MB -- new -- frame 34
+
 callingcard_16  0.1441956 MB -- new -- frame 34
